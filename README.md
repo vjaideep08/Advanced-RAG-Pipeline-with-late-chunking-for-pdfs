@@ -139,7 +139,7 @@ graph TB
 
 ```bash
 # 1. Clone and setup
-git clone <repository-url>
+git clone https://github.com/vjaideep08/Advanced-RAG-Pipeline-with-late-chunking-for-pdfs.git
 cd rag-pipeline
 pip install -r requirements.txt
 
