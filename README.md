@@ -682,6 +682,10 @@ Input : What are the security requirements and site access protocols for the pro
 **Vector DB Collection information snapshot : **
 ![image](https://github.com/user-attachments/assets/245f77b4-080e-45e8-8ab2-f620a2fb2399)
 
+**Data Visualization : **
+![image](https://github.com/user-attachments/assets/bea50a85-d3ea-4271-96e9-a38926b4271e)
+
+
 
 
 ### **🔍 File Explanations**
