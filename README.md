@@ -863,7 +863,7 @@ SOFTWARE.
 
 **🚀 Built with ❤️ for the AI Community**
 
-[⭐ Star this repository](https://github.com/vjaideep08/rag-pipeline) 
+[⭐ Star this repository](https://github.com/vjaideep08/Advanced-RAG-Pipeline-with-late-chunking-for-pdfs.git) 
 
 ---
 
