@@ -32,7 +32,8 @@
 - [🔧 API Endpoints](#-api-endpoints)
 - [💬 Streamlit Chat Interface](#-streamlit-chat-interface)
 - [📁 Project Structure](#-project-structure)
-- [🤝 Contributing](#-contributing)
+- [ Demo Snap Shots](#-Demo-Snap-Shots)
+
 
 ---
 
@@ -658,6 +659,21 @@ rag-pipeline/
     ├── 📄 document2.pdf
     └── 📄 ...
 ```
+
+## 📁 **Demo Snap Shots**
+
+**Chat Interface**
+![image](https://github.com/user-attachments/assets/4c69a60c-7ccf-4b68-bd5d-28aab407b59c)
+
+**LATE RAG AT ACTION**
+Input : List all mandatory documents bidders must submit?
+![image](https://github.com/user-attachments/assets/c95ee194-0c75-408b-a0d0-b6639894f1a3)
+
+Input : What are the security requirements and site access protocols for the project IFPQ # 01A6494?
+![image](https://github.com/user-attachments/assets/d21ea68b-fc92-45f8-963b-c19c55fe2f23)
+
+
+
 
 ### **🔍 File Explanations**
 
