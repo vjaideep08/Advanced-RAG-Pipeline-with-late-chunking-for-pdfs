@@ -162,9 +162,9 @@ streamlit run streamlit_chatbot.py
 ```
 
 **🌐 Access Points:**
-- **API**: http://localhost:8000
+- **API**: http://localhost:8080
 - **Chat Interface**: http://localhost:8501
-- **API Documentation**: http://localhost:8000/docs
+- **API Documentation**: http://localhost:8080/docs
 
 ---
 
@@ -768,7 +768,7 @@ services:
   rag-api:
     build: .
     ports:
-      - "8000:8000"
+      - "8080:8080"
     environment:
       - CLAUDE_API_KEY=${CLAUDE_API_KEY}
       - QDRANT_URL=http://qdrant:6333
