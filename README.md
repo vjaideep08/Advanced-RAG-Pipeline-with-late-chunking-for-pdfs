@@ -1,6 +1,6 @@
 # Advanced-RAG-Pipeline-with-late-chunking-for-pdfs
 
-# 🤖 Advanced RAG Pipeline for Project Proposals
+# 🤖 Advanced RAG Pipeline for handlings PDF's to maitain PDF Level Contextuality
 
 <div align="center">
 
@@ -743,32 +743,6 @@ python test_setup.py
 # 🎉 Your setup looks good!
 ```
 
-### **🧪 Integration Testing**
-
-```bash
-# Test all API endpoints
-python test_integration.py
-
-# Tests include:
-# - Health endpoint functionality
-# - Chat endpoint with sample queries
-# - Fine-prints extraction
-# - Performance benchmarks
-```
-
-### **📊 Performance Testing**
-
-```bash
-# Load test with multiple concurrent requests
-python test_performance.py
-
-# Metrics measured:
-# - Response time distribution
-# - Throughput under load
-# - Memory usage patterns
-# - Error rates
-```
-
 ---
 
 ## 🚀 **Deployment Options**
@@ -820,21 +794,6 @@ volumes:
   qdrant_data:
 ```
 
-### **☁️ Cloud Deployment**
-
-#### **AWS Deployment**
-- **ECS**: Container orchestration with auto-scaling
-- **RDS**: Managed PostgreSQL for metadata
-- **S3**: Document storage and backup
-- **CloudWatch**: Monitoring and logging
-
-#### **Google Cloud Deployment**
-- **Cloud Run**: Serverless container deployment
-- **Cloud SQL**: Managed database services
-- **Cloud Storage**: Document and backup storage
-- **Cloud Monitoring**: Performance tracking
-
----
 
 ## 🛡️ **Security Considerations**
 
@@ -855,99 +814,6 @@ volumes:
 - **Firewall Rules**: Minimal required ports
 - **SSL/TLS**: HTTPS everywhere
 - **Container Security**: Vulnerability scanning
-
----
-
-## 📈 **Monitoring & Observability**
-
-### **📊 Metrics Collection**
-- **Response Times**: P50, P95, P99 percentiles
-- **Throughput**: Requests per second
-- **Error Rates**: 4xx and 5xx responses
-- **Resource Usage**: CPU, memory, disk
-
-### **🔍 Logging Strategy**
-- **Structured Logging**: JSON format for parsing
-- **Log Levels**: DEBUG, INFO, WARN, ERROR
-- **Correlation IDs**: Request tracking
-- **Performance Logs**: Query timing and optimization
-
-### **⚠️ Alerting Rules**
-- **High Error Rate**: >5% errors in 5 minutes
-- **Slow Response**: >10s average response time
-- **Resource Exhaustion**: >80% memory/CPU usage
-- **Service Unavailable**: Health check failures
-
----
-
-## 🔄 **Continuous Improvement**
-
-### **📊 Performance Optimization**
-- **Caching Strategy**: Redis for frequent queries
-- **Connection Pooling**: Database connection optimization
-- **Batch Processing**: Efficient bulk operations
-- **Memory Management**: Garbage collection tuning
-
-### **🧠 Model Improvements**
-- **Embedding Updates**: Regular model version updates
-- **Prompt Engineering**: Continuous prompt optimization
-- **Fine-tuning**: Domain-specific model adaptation
-- **Evaluation Metrics**: Accuracy and relevance tracking
-
-### **🔧 Feature Roadmap**
-- **Multi-language Support**: International document processing
-- **Advanced Analytics**: Usage patterns and insights
-- **Mobile App**: Native mobile interface
-- **Integration APIs**: Third-party system connections
-
----
-
-## 🤝 **Contributing**
-
-We welcome contributions to improve the RAG pipeline! Here's how to get started:
-
-### **🛠️ Development Setup**
-
-```bash
-# Fork the repository and clone
-git clone https://github.com/your-username/rag-pipeline.git
-cd rag-pipeline
-
-# Create development environment
-python -m venv venv_dev
-source venv_dev/bin/activate
-
-# Install development dependencies
-pip install -r requirements-dev.txt
-pip install -e .
-
-# Run tests
-pytest tests/
-```
-
-### **📝 Contribution Guidelines**
-
-1. **Code Style**: Follow PEP 8 with Black formatting
-2. **Testing**: Add tests for new features
-3. **Documentation**: Update README and docstrings
-4. **Commits**: Use conventional commit messages
-5. **Pull Requests**: Include detailed descriptions
-
-### **🐛 Bug Reports**
-
-Please include:
-- **Environment**: Python version, OS, dependencies
-- **Steps to Reproduce**: Minimal example
-- **Expected vs Actual**: Clear description
-- **Logs**: Relevant error messages
-
-### **💡 Feature Requests**
-
-Please include:
-- **Use Case**: Why this feature is needed
-- **Proposal**: Detailed implementation approach
-- **Impact**: Benefits and potential drawbacks
-- **Examples**: Mock-ups or code samples
 
 ---
 
@@ -992,20 +858,12 @@ SOFTWARE.
 
 ---
 
-## 📞 **Support**
-
-- **Documentation**: [Project Wiki](wiki-url)
-- **Issues**: [GitHub Issues](issues-url)
-- **Discussions**: [GitHub Discussions](discussions-url)
-- **Email**: [support@example.com](mailto:support@example.com)
-
----
 
 <div align="center">
 
 **🚀 Built with ❤️ for the AI Community**
 
-[⭐ Star this repository](https://github.com/your-username/rag-pipeline) • [🐛 Report a bug](https://github.com/your-username/rag-pipeline/issues) • [💡 Request a feature](https://github.com/your-username/rag-pipeline/issues)
+[⭐ Star this repository](https://github.com/vjaideep08/rag-pipeline) 
 
 ---
 
