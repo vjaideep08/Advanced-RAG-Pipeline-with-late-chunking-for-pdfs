@@ -673,6 +673,15 @@ Input : What are the security requirements and site access protocols for the pro
 ![image](https://github.com/user-attachments/assets/d21ea68b-fc92-45f8-963b-c19c55fe2f23)
 
 
+## **Other Snapshots** : 
+
+**FAST API : **
+![image](https://github.com/user-attachments/assets/a25d2865-57cc-417c-8e50-6c5feed05d7d)
+
+
+**Vector DB Collection information snapshot : **
+![image](https://github.com/user-attachments/assets/245f77b4-080e-45e8-8ab2-f620a2fb2399)
+
 
 
 ### **🔍 File Explanations**
